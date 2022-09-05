@@ -1,0 +1,33 @@
+{
+  "name": "web-starter",
+  "version": "0.0.1",
+  "description": "Web Starter",
+  "main": "index.js",
+  "repository": "git@github.com:hieudoanm/web-starter.git",
+  "author": "hieudoanm <hieumdoan@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "engines": {
+    "node": ">= 14",
+    "npm": ">= 8",
+    "yarn": "1"
+  },
+  "scripts": {
+    "build:next": "yarn workspace next-starter build",
+    "build": "yarn build:next",
+    "lint:next": "yarn workspace next-starter lint",
+    "lint": "yarn lint:next",
+    "test:next": "yarn workspace next-starter test",
+    "test": "yarn test:next"
+  },
+  "devDependencies": {
+    "husky": "8.0.1",
+    "prettier": "2.7.1",
+    "pretty-quick": "3.1.3",
+    "nx": "14.6.4",
+    "@nrwl/nx-cloud": "latest"
+  },
+  "workspaces": [
+    "web/*"
+  ]
+}
