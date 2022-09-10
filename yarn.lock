@@ -912,12 +912,12 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@nrwl/cli@14.6.5":
-  version "14.6.5"
-  resolved "https://registry.yarnpkg.com/@nrwl/cli/-/cli-14.6.5.tgz#6751d7c48fff78095fb19874bda6a1f786e47ce8"
-  integrity sha512-sjT4/oMk1F4+dTpCp08IVE8hfqKsokebUECzC1hTu4pCeFo0oviIi7bQTuCIbG9w4iiHLioa6QmLRXBwVJEr9w==
+"@nrwl/cli@14.7.3":
+  version "14.7.3"
+  resolved "https://registry.yarnpkg.com/@nrwl/cli/-/cli-14.7.3.tgz#d692105530336dda2cfb1199b5706e137c035baf"
+  integrity sha512-mWZ0XidXp7YDJmVLWXQ/MRKwFhV75hQUk9VX+ysCRwptx+vuBVZYUfwuD/Jt8x1EkVYNhPjKwUPVteU8LzA/GA==
   dependencies:
-    nx "14.6.5"
+    nx "14.7.3"
 
 "@nrwl/nx-cloud@latest":
   version "14.6.1"
@@ -932,12 +932,12 @@
     tar "6.1.11"
     yargs-parser ">=21.0.1"
 
-"@nrwl/tao@14.6.5":
-  version "14.6.5"
-  resolved "https://registry.yarnpkg.com/@nrwl/tao/-/tao-14.6.5.tgz#202d9ed3e13cb873dd7f218c0622ba8972ba8cd6"
-  integrity sha512-sSbTSN4Bfh4vQR2iCl9arNzEhJztG6paY2j+k/GwQZdN+QssX9xV32jLWYIC3rDmPJWaZ11uD3TgAyr3X7GXhw==
+"@nrwl/tao@14.7.3":
+  version "14.7.3"
+  resolved "https://registry.yarnpkg.com/@nrwl/tao/-/tao-14.7.3.tgz#55ae1ca44582941868296e03533a8a22be072370"
+  integrity sha512-QnfYgtEwJ1Q+8vMHKYcLNfhkMGlbx2JbEMni41GXOE8hRn+ZEe2UWORJ8p+eUjdjaqtaU24SlNrbju1hh9XpUQ==
   dependencies:
-    nx "14.6.5"
+    nx "14.7.3"
 
 "@parcel/watcher@2.0.4":
   version "2.0.4"
@@ -1188,10 +1188,19 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react@*", "@types/react@18.0.18":
+"@types/react@*":
   version "18.0.18"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-18.0.18.tgz#9f16f33d57bc5d9dca848d12c3572110ff9429ac"
   integrity sha512-6hI08umYs6NaiHFEEGioXnxJ+oEhY3eRz8VCUaudZmGdtvPviCJB8mgaMxaDWAdPSYd4eFavrPk2QIolwbLYrg==
+  dependencies:
+    "@types/prop-types" "*"
+    "@types/scheduler" "*"
+    csstype "^3.0.2"
+
+"@types/react@18.0.19":
+  version "18.0.19"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.0.19.tgz#269a5f35b9a73c69dfb0c7189017013ab02acbaa"
+  integrity sha512-BDc3Q+4Q3zsn7k9xZrKfjWyJsSlEDMs38gD1qp2eDazLCdcPqAT+vq1ND+Z8AGel/UiwzNUk8ptpywgNQcJ1MQ==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
@@ -3905,13 +3914,13 @@ nwsapi@^2.2.0:
   resolved "https://registry.yarnpkg.com/nwsapi/-/nwsapi-2.2.2.tgz#e5418863e7905df67d51ec95938d67bf801f0bb0"
   integrity sha512-90yv+6538zuvUMnN+zCr8LuV6bPFdq50304114vJYJ8RDyK8D5O9Phpbd6SZWgI7PwzmmfN1upeOJlvybDSgCw==
 
-nx@14.6.5:
-  version "14.6.5"
-  resolved "https://registry.yarnpkg.com/nx/-/nx-14.6.5.tgz#13524e7355803a8247278374063d8e82b845a621"
-  integrity sha512-egV8Zrec+0m+27wTENe9W/JKRMkBDx1N0xaFzKjL0WKj5WIe4asao5uwTJEwqi9iQyiijExxUFVU5MNGuF2c+A==
+nx@14.7.3:
+  version "14.7.3"
+  resolved "https://registry.yarnpkg.com/nx/-/nx-14.7.3.tgz#cd54740a1c7e8d01de41e9fe4a191e3d931a8aad"
+  integrity sha512-+MreZAg9M/9Z2QW3tkWj2tokDZTNxlUDp//ECPOPCW8Auk5re3IEyhSMgQLHVNtIxcCy/bPXldd0KIpdusCYJA==
   dependencies:
-    "@nrwl/cli" "14.6.5"
-    "@nrwl/tao" "14.6.5"
+    "@nrwl/cli" "14.7.3"
+    "@nrwl/tao" "14.7.3"
     "@parcel/watcher" "2.0.4"
     chalk "4.1.0"
     chokidar "^3.5.1"
