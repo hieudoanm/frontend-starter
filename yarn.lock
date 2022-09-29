@@ -938,12 +938,12 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@nrwl/cli@14.7.17":
-  version "14.7.17"
-  resolved "https://registry.yarnpkg.com/@nrwl/cli/-/cli-14.7.17.tgz#eb7eda69a8934eaf1145b8b70737d8b2f81f3424"
-  integrity sha512-ovzGpWnTrmFXX5TEV2VzBUz8oPLoPkqtGKpdvlHvnd0UADQUpmNxoSY7mzHclDLRMyb6MWnVKqlJiypTG/p9iw==
+"@nrwl/cli@14.8.2":
+  version "14.8.2"
+  resolved "https://registry.yarnpkg.com/@nrwl/cli/-/cli-14.8.2.tgz#ec521f30d16771f50b87e3d9d0383465bedf5d4d"
+  integrity sha512-I+oblryFkZJYk9TMsBWNdN0SV7OjsiD80gD1WjA1KXEQiFVfopYgwErBrxoenodncXrMFRCk/QR9U5F+23+Vow==
   dependencies:
-    nx "14.7.17"
+    nx "14.8.2"
 
 "@nrwl/nx-cloud@latest":
   version "14.6.1"
@@ -958,12 +958,12 @@
     tar "6.1.11"
     yargs-parser ">=21.0.1"
 
-"@nrwl/tao@14.7.17":
-  version "14.7.17"
-  resolved "https://registry.yarnpkg.com/@nrwl/tao/-/tao-14.7.17.tgz#30e671d86526e9513d3d0dbb28c72d87b0d3f846"
-  integrity sha512-35IPDtv4hdkmDvLuQ/Q5AaDACgsznpmj3+/SitL1U/vYpFUcAPUrPznL3QK4TuvL3IeCLwYaYO0NCZotDEQi4g==
+"@nrwl/tao@14.8.2":
+  version "14.8.2"
+  resolved "https://registry.yarnpkg.com/@nrwl/tao/-/tao-14.8.2.tgz#edf90da3af4f317e26498882a25dba3cce34cbba"
+  integrity sha512-a4+O307YZJf1H6CDQFGs4DoUvl7xUFSJo2rNHoR9jDlWU+Ug3n0iivX7Fih6Ui0gX4ocEpRwzNMmJhEmEq1BYw==
   dependencies:
-    nx "14.7.17"
+    nx "14.8.2"
 
 "@parcel/watcher@2.0.4":
   version "2.0.4"
@@ -4054,13 +4054,13 @@ nwsapi@^2.2.0:
   resolved "https://registry.yarnpkg.com/nwsapi/-/nwsapi-2.2.2.tgz#e5418863e7905df67d51ec95938d67bf801f0bb0"
   integrity sha512-90yv+6538zuvUMnN+zCr8LuV6bPFdq50304114vJYJ8RDyK8D5O9Phpbd6SZWgI7PwzmmfN1upeOJlvybDSgCw==
 
-nx@14.7.17:
-  version "14.7.17"
-  resolved "https://registry.yarnpkg.com/nx/-/nx-14.7.17.tgz#54a78b6fa9b36caa31981ca5f0c87b740e0ebdf6"
-  integrity sha512-LLXdz4xeR54Lqw9t3XtOJsBtlwtSexrlIwhWc42GKlv4MHrBOnTp99jTQ/hdP9TpGCU7tvShRQ4ildZJapgRSg==
+nx@14.8.2:
+  version "14.8.2"
+  resolved "https://registry.yarnpkg.com/nx/-/nx-14.8.2.tgz#b285a09368418c4c0fa55c2d5ee411fe1fd3706b"
+  integrity sha512-pPijBoeybsIlCD8FMH8WTns+pcIL+0ZOh/+otUX2LfVsi+ppH33GUxO9QVLPrLcyGaoHhwil4hYBxPIQ7Z1r2g==
   dependencies:
-    "@nrwl/cli" "14.7.17"
-    "@nrwl/tao" "14.7.17"
+    "@nrwl/cli" "14.8.2"
+    "@nrwl/tao" "14.8.2"
     "@parcel/watcher" "2.0.4"
     "@yarnpkg/lockfile" "^1.1.0"
     "@yarnpkg/parsers" "^3.0.0-rc.18"
