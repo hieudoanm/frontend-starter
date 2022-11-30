@@ -12,6 +12,9 @@
     "npm": ">= 8",
     "yarn": "1"
   },
+  "scripts": {
+    "prepare": "husky install || true"
+  },
   "devDependencies": {
     "@nrwl/nx-cloud": "latest",
     "husky": "8.0.2",

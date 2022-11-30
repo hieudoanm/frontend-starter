@@ -20,7 +20,6 @@
     "build": "tsc --project tsconfig.build.json",
     "docs": "ts-node scripts",
     "lint": "eslint . --fix --ext .ts",
-    "prepare": "husky install",
     "test": "jest"
   },
   "dependencies": {
