@@ -19,7 +19,7 @@ jobs:
             version: ubuntu-latest
         project:
           - name: Next.js
-            working-directory: ./web/next-starter
+            working-directory: ./web/next
     name: ${{ matrix.node.name }} - ${{ matrix.os.name }} - ${{ matrix.project.name }}
     runs-on: ${{ matrix.os.version }}
     steps:

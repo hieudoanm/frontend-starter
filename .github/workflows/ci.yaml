@@ -24,7 +24,7 @@ jobs:
           - name: Hooks
             working-directory: ./packages/hooks
           - name: Next.js
-            working-directory: ./web/next-starter
+            working-directory: ./web/next
     name: ${{ matrix.node.name }} - ${{ matrix.os.name }} - ${{ matrix.project.name }}
     runs-on: ${{ matrix.os.version }}
     steps:
