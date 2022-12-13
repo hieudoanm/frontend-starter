@@ -906,12 +906,12 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@nrwl/cli@15.3.2":
-  version "15.3.2"
-  resolved "https://registry.yarnpkg.com/@nrwl/cli/-/cli-15.3.2.tgz#dd713e6d6a064587a0ededd75d301b72f820e222"
-  integrity sha512-3xlH5LlNDzQ1mvVk+8w2WPoDwaOuUKR+9+38nnxTW6jW8g8S+h259/2IGsXnJ+cD7oEv3TARTC6aCrwVNn7egA==
+"@nrwl/cli@15.3.3":
+  version "15.3.3"
+  resolved "https://registry.yarnpkg.com/@nrwl/cli/-/cli-15.3.3.tgz#9d7f09e336c39ecc54155f21f394b0fc740054eb"
+  integrity sha512-ZWTmVP9H3ukppWWGaS/s3Nym2nOYgnt6eHtuUFNsroz8LesG5oFAJviOz9jDEM/b+pLIrvYfU5aAGZqrtM3Z2A==
   dependencies:
-    nx "15.3.2"
+    nx "15.3.3"
 
 "@nrwl/nx-cloud@latest":
   version "15.0.2"
@@ -927,12 +927,12 @@
     tar "6.1.11"
     yargs-parser ">=21.0.1"
 
-"@nrwl/tao@15.3.2":
-  version "15.3.2"
-  resolved "https://registry.yarnpkg.com/@nrwl/tao/-/tao-15.3.2.tgz#3498bd6596e582cbc5b922a45e5d8db5bcb2ce47"
-  integrity sha512-iP7e7gxSLn7xahz13Mj0c6KMSd9S2sUmD1Z6+F/H/lThikkrgURckSyZFtAW6OQNYOkWWi9RwdzVsH5He0syhQ==
+"@nrwl/tao@15.3.3":
+  version "15.3.3"
+  resolved "https://registry.yarnpkg.com/@nrwl/tao/-/tao-15.3.3.tgz#b54a4f28833d11f96f69796b6d2c1624123734e5"
+  integrity sha512-f9+VwhlJ/7TWpjHSgoUOAA067uP9DmzABMY9HC5OREEDaCx+rzYEvbLAPv6cXzWw+6IYM6cyKw0zWSQrdEVrWg==
   dependencies:
-    nx "15.3.2"
+    nx "15.3.3"
 
 "@parcel/watcher@2.0.4":
   version "2.0.4"
@@ -4263,13 +4263,13 @@ nwsapi@^2.2.2:
   resolved "https://registry.yarnpkg.com/nwsapi/-/nwsapi-2.2.2.tgz#e5418863e7905df67d51ec95938d67bf801f0bb0"
   integrity sha512-90yv+6538zuvUMnN+zCr8LuV6bPFdq50304114vJYJ8RDyK8D5O9Phpbd6SZWgI7PwzmmfN1upeOJlvybDSgCw==
 
-nx@15.3.2:
-  version "15.3.2"
-  resolved "https://registry.yarnpkg.com/nx/-/nx-15.3.2.tgz#3269b7c1c0be4dc4c389a4c54f463eb43636d542"
-  integrity sha512-i/y9pkZj6OACnk/+VmJaqrRIhY9VZw0twyeUp9z3gy7KElFoQZ7EMm4LcacFpVYy/MTsHYi0c87CDzkSyPogOA==
+nx@15.3.3:
+  version "15.3.3"
+  resolved "https://registry.yarnpkg.com/nx/-/nx-15.3.3.tgz#4ad357310112bad1c4fbfded965bbbe00a2a906f"
+  integrity sha512-yR102AlVW5Sb7X1e9cyR+0h44RD6c3eLJbAZ0yVFKPCKw+zQTdGvAqITtB6ZeFnPkg6Qq6f1oWu6G0n6f2cTpw==
   dependencies:
-    "@nrwl/cli" "15.3.2"
-    "@nrwl/tao" "15.3.2"
+    "@nrwl/cli" "15.3.3"
+    "@nrwl/tao" "15.3.3"
     "@parcel/watcher" "2.0.4"
     "@yarnpkg/lockfile" "^1.1.0"
     "@yarnpkg/parsers" "^3.0.0-rc.18"
