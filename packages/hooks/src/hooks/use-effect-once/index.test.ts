@@ -1,10 +1,12 @@
-import { renderHook } from '@testing-library/react-hooks';
+import { renderHook, act } from '@testing-library/react';
 import { useEffectOnce } from '.';
 
 describe('useEffectOnce', () => {
-  it('should run callback', () => {
-    const { result } = renderHook(useEffectOnce);
-    console.log(result);
-    expect(result).toBeTruthy();
+  it('render once', () => {
+    const mock = jest.fn();
+    renderHook(() => useEffectOnce(mock));
+    act(() => {
+      expect(mock).toBeCalledTimes(1);
+    });
   });
 });

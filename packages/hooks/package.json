@@ -1,5 +1,5 @@
 {
-  "name": "react-hooks",
+  "name": "@hieudoanm/hooks",
   "version": "0.0.1",
   "description": "(React) Use Hooks",
   "main": "dist/index.js",
@@ -27,6 +27,7 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
+    "@testing-library/react": "13.4.0",
     "@testing-library/react-hooks": "8.0.1",
     "@types/jest": "29.2.4",
     "@types/node": "18.11.15",

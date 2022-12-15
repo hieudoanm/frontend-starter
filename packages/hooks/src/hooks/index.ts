@@ -1,4 +1,5 @@
 export { useAsync } from './use-async';
+export { useAxios } from './use-axios';
 export { useDebounce } from './use-debounce';
 export { useEffectOnce } from './use-effect-once';
 export { useGeolocation } from './use-geolocation';
