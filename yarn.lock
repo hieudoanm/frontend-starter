@@ -1016,12 +1016,12 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@nrwl/cli@14.8.6":
-  version "14.8.6"
-  resolved "https://registry.yarnpkg.com/@nrwl/cli/-/cli-14.8.6.tgz#56fcfae492a159efe978b7d51dd51f8a18cda0af"
-  integrity sha512-R4udxekMd4jhoRPEksJu+224DocOIrAqenFo0D2R36epE5FaCnZQX7xg+b3TjRbdS10e426i4D9LuXdQmP5jJg==
+"@nrwl/cli@15.3.3":
+  version "15.3.3"
+  resolved "https://registry.yarnpkg.com/@nrwl/cli/-/cli-15.3.3.tgz#9d7f09e336c39ecc54155f21f394b0fc740054eb"
+  integrity sha512-ZWTmVP9H3ukppWWGaS/s3Nym2nOYgnt6eHtuUFNsroz8LesG5oFAJviOz9jDEM/b+pLIrvYfU5aAGZqrtM3Z2A==
   dependencies:
-    nx "14.8.6"
+    nx "15.3.3"
 
 "@nrwl/nx-cloud@latest":
   version "15.0.2"
@@ -1037,12 +1037,12 @@
     tar "6.1.11"
     yargs-parser ">=21.0.1"
 
-"@nrwl/tao@14.8.6":
-  version "14.8.6"
-  resolved "https://registry.yarnpkg.com/@nrwl/tao/-/tao-14.8.6.tgz#5055af46942744fae0b88beedbf2ad016ab53b2b"
-  integrity sha512-CByqrsfSJeonOd7TLAHP8bRYNWgDksxA7j+yncSzgQnFLEbZdJGG/AqqIovx8g6g2v0JS+nRgGC+w5UPf04UrQ==
+"@nrwl/tao@15.3.3":
+  version "15.3.3"
+  resolved "https://registry.yarnpkg.com/@nrwl/tao/-/tao-15.3.3.tgz#b54a4f28833d11f96f69796b6d2c1624123734e5"
+  integrity sha512-f9+VwhlJ/7TWpjHSgoUOAA067uP9DmzABMY9HC5OREEDaCx+rzYEvbLAPv6cXzWw+6IYM6cyKw0zWSQrdEVrWg==
   dependencies:
-    nx "14.8.6"
+    nx "15.3.3"
 
 "@parcel/watcher@2.0.4":
   version "2.0.4"
@@ -1098,17 +1098,17 @@
   resolved "https://registry.yarnpkg.com/@socket.io/component-emitter/-/component-emitter-3.1.0.tgz#96116f2a912e0c02817345b3c10751069920d553"
   integrity sha512-+9jVqKhRSpsc591z5vX+X5Yyw+he/HCB4iQ/RYxw35CEPaY1gnsNE43nf9n9AaYjAQrTiI/mOwKUKdUs9vf7Xg==
 
-"@sveltejs/vite-plugin-svelte@2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@sveltejs/vite-plugin-svelte/-/vite-plugin-svelte-2.0.0.tgz#1ede4b2424653996a2148482c1c2d219923dec7b"
-  integrity sha512-oUFrYQarRv4fppmxdrv00qw3wX8Ycdj0uv33MfpRZyR8K67dyxiOcHnqkB0zSy5sDJA8RC/2aNtYhXJ8NINVHQ==
+"@sveltejs/vite-plugin-svelte@2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@sveltejs/vite-plugin-svelte/-/vite-plugin-svelte-2.0.2.tgz#943090239a31b2e0546837ff7649b73aeb46614c"
+  integrity sha512-xCEan0/NNpQuL0l5aS42FjwQ6wwskdxC3pW1OeFtEKNZwRg7Evro9lac9HesGP6TdFsTv2xMes5ASQVKbCacxg==
   dependencies:
     debug "^4.3.4"
     deepmerge "^4.2.2"
     kleur "^4.1.5"
     magic-string "^0.27.0"
     svelte-hmr "^0.15.1"
-    vitefu "^0.2.2"
+    vitefu "^0.2.3"
 
 "@swc/helpers@0.4.14":
   version "0.4.14"
@@ -4471,13 +4471,13 @@ nwsapi@^2.2.2:
   resolved "https://registry.yarnpkg.com/nwsapi/-/nwsapi-2.2.2.tgz#e5418863e7905df67d51ec95938d67bf801f0bb0"
   integrity sha512-90yv+6538zuvUMnN+zCr8LuV6bPFdq50304114vJYJ8RDyK8D5O9Phpbd6SZWgI7PwzmmfN1upeOJlvybDSgCw==
 
-nx@14.8.6:
-  version "14.8.6"
-  resolved "https://registry.yarnpkg.com/nx/-/nx-14.8.6.tgz#50bdfde1638478c60d9646d1d23e984a09801d38"
-  integrity sha512-QLU3sip/g3JdNO8n5Nw2esN+0G26Jsy3u1LlrB9Giu4zf/+KsfN8CcXMbEVqOnPR1FkCS52xliaq7IBQfvvMQA==
+nx@15.3.3:
+  version "15.3.3"
+  resolved "https://registry.yarnpkg.com/nx/-/nx-15.3.3.tgz#4ad357310112bad1c4fbfded965bbbe00a2a906f"
+  integrity sha512-yR102AlVW5Sb7X1e9cyR+0h44RD6c3eLJbAZ0yVFKPCKw+zQTdGvAqITtB6ZeFnPkg6Qq6f1oWu6G0n6f2cTpw==
   dependencies:
-    "@nrwl/cli" "14.8.6"
-    "@nrwl/tao" "14.8.6"
+    "@nrwl/cli" "15.3.3"
+    "@nrwl/tao" "15.3.3"
     "@parcel/watcher" "2.0.4"
     "@yarnpkg/lockfile" "^1.1.0"
     "@yarnpkg/parsers" "^3.0.0-rc.18"
@@ -4509,8 +4509,8 @@ nx@14.8.6:
     tsconfig-paths "^3.9.0"
     tslib "^2.3.0"
     v8-compile-cache "2.3.0"
-    yargs "^17.4.0"
-    yargs-parser "21.0.1"
+    yargs "^17.6.2"
+    yargs-parser "21.1.1"
 
 object-assign@^4.1.1:
   version "4.1.1"
@@ -4794,7 +4794,7 @@ postcss@8.4.14:
     picocolors "^1.0.0"
     source-map-js "^1.0.2"
 
-postcss@8.4.20, postcss@^8.4.19:
+postcss@8.4.20, postcss@^8.4.20:
   version "8.4.20"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.20.tgz#64c52f509644cecad8567e949f4081d98349dc56"
   integrity sha512-6Q04AXR1212bXr5fh03u8aAwbLxAQNGQ/Q1LNa0VfOI06ZAlhPHtQvE4OIdpj4kLThXilalPnmDSOD65DcHt+g==
@@ -5429,10 +5429,10 @@ supports-preserve-symlinks-flag@^1.0.0:
   resolved "https://registry.yarnpkg.com/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz#6eda4bd344a3c94aea376d4cc31bc77311039e09"
   integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
 
-svelte-check@2.10.0:
-  version "2.10.0"
-  resolved "https://registry.yarnpkg.com/svelte-check/-/svelte-check-2.10.0.tgz#38a5d888efa3edaca4827aa61db5d4d4eaa90532"
-  integrity sha512-5iLCoja/WsithyRkNtIeDQ0euJlgWj3Zzo2IA6iuHMuuX9D9OrRYZj2WlA5ACnAFQnN5L9mxWcwUW9VxDNEoGg==
+svelte-check@2.10.2:
+  version "2.10.2"
+  resolved "https://registry.yarnpkg.com/svelte-check/-/svelte-check-2.10.2.tgz#903919e5d174be4a6508cd57b48b6dbfd44a61dd"
+  integrity sha512-h1Tuiir0m8J5yqN+Vx6qgKKk1L871e6a9o7rMwVWfu8Qs6Wg7x2R+wcxS3SO3VpW5JCxCat90rxPsZMYgz+HaQ==
   dependencies:
     "@jridgewell/trace-mapping" "^0.3.9"
     chokidar "^3.4.1"
@@ -5460,10 +5460,10 @@ svelte-preprocess@^4.0.0:
     sorcery "^0.10.0"
     strip-indent "^3.0.0"
 
-svelte@3.54.0:
-  version "3.54.0"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.54.0.tgz#b4bcd865bd9e927f9f7b76563288ef5f4d72867a"
-  integrity sha512-tdrgeJU0hob0ZWAMoKXkhcxXA7dpTg6lZGxUeko5YqvPdJBiyRspGsCwV27kIrbrqPP2WUoSV9ca0gnLlw8YzQ==
+svelte@3.55.0:
+  version "3.55.0"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.55.0.tgz#29cb958750a23e751309a6535ccd811fcabc9038"
+  integrity sha512-uGu2FVMlOuey4JoKHKrpZFkoYyj0VLjJdz47zX5+gVK5odxHM40RVhar9/iK2YFRVxvfg9FkhfVlR0sjeIrOiA==
 
 symbol-tree@^3.2.4:
   version "3.2.4"
@@ -5697,11 +5697,6 @@ typescript@*, typescript@4.9.4:
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.9.4.tgz#a2a3d2756c079abda241d75f149df9d561091e78"
   integrity sha512-Uz+dTXYzxXXbsFpM86Wh3dKCxrQqUcVMxwU54orwlJjOpO3ao8L7j5lH+dWfTwgCwIuM9GQ2kvVotzYJMXTBZg==
 
-typescript@4.9.3:
-  version "4.9.3"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.9.3.tgz#3aea307c1746b8c384435d8ac36b8a2e580d85db"
-  integrity sha512-CIfGzTelbKNEnLpLdGFgdyKhG23CKdKgQPOBc+OUNrkJ2vr+KSzsSV5kq5iWhEQbok+quxgGzrAtGWCyU7tHnA==
-
 unbox-primitive@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/unbox-primitive/-/unbox-primitive-1.0.2.tgz#29032021057d5e6cdbd08c5129c226dff8ed6f9e"
@@ -5769,19 +5764,19 @@ v8-to-istanbul@^9.0.1:
     "@types/istanbul-lib-coverage" "^2.0.1"
     convert-source-map "^1.6.0"
 
-vite@4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/vite/-/vite-4.0.0.tgz#b81b88349a06b2faaa53ae14cf96c942548e3454"
-  integrity sha512-ynad+4kYs8Jcnn8J7SacS9vAbk7eMy0xWg6E7bAhS1s79TK+D7tVFGXVZ55S7RNLRROU1rxoKlvZ/qjaB41DGA==
+vite@4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/vite/-/vite-4.0.1.tgz#e0a54d818c28ae47fd27bcac6a4a952c6a658502"
+  integrity sha512-kZQPzbDau35iWOhy3CpkrRC7It+HIHtulAzBhMqzGHKRf/4+vmh8rPDDdv98SWQrFWo6//3ozwsRmwQIPZsK9g==
   dependencies:
     esbuild "^0.16.3"
-    postcss "^8.4.19"
+    postcss "^8.4.20"
     resolve "^1.22.1"
     rollup "^3.7.0"
   optionalDependencies:
     fsevents "~2.3.2"
 
-vitefu@^0.2.2:
+vitefu@^0.2.3:
   version "0.2.4"
   resolved "https://registry.yarnpkg.com/vitefu/-/vitefu-0.2.4.tgz#212dc1a9d0254afe65e579351bed4e25d81e0b35"
   integrity sha512-fanAXjSaf9xXtOOeno8wZXIhgia+CZury481LsDaV++lSvcU2R9Ch2bPh3PYFyoHW+w9LqAeYRISVQjUIew14g==
@@ -5937,17 +5932,12 @@ yaml@^1.10.0, yaml@^1.10.2:
   resolved "https://registry.yarnpkg.com/yaml/-/yaml-1.10.2.tgz#2301c5ffbf12b467de8da2333a459e29e7920e4b"
   integrity sha512-r3vXyErRCYJ7wg28yvBY5VSoAF8ZvlcW9/BwUzEtUsjvX/DKs24dIkuwjtuprwJJHsbyUbLApepYTR1BN4uHrg==
 
-yargs-parser@21.0.1:
-  version "21.0.1"
-  resolved "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-21.0.1.tgz#0267f286c877a4f0f728fceb6f8a3e4cb95c6e35"
-  integrity sha512-9BK1jFpLzJROCI5TzwZL/TU4gqjK5xiHV/RfWLOahrjAko/e4DJkRDZQXfvqAsiZzzYhgAzbgz6lg48jcm4GLg==
-
-yargs-parser@>=21.0.1, yargs-parser@^21.0.1, yargs-parser@^21.1.1:
+yargs-parser@21.1.1, yargs-parser@>=21.0.1, yargs-parser@^21.0.1, yargs-parser@^21.1.1:
   version "21.1.1"
   resolved "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-21.1.1.tgz#9096bceebf990d21bb31fa9516e0ede294a77d35"
   integrity sha512-tVpsJW7DdjecAiFpbIB1e3qxIQsE6NoPc5/eTdrbbIC4h0LVsWhnoa3g+m2HclBIujHzsxZ4VJVA+GUuc2/LBw==
 
-yargs@^17.3.1, yargs@^17.4.0:
+yargs@^17.3.1, yargs@^17.6.2:
   version "17.6.2"
   resolved "https://registry.yarnpkg.com/yargs/-/yargs-17.6.2.tgz#2e23f2944e976339a1ee00f18c77fedee8332541"
   integrity sha512-1/9UrdHjDZc0eOU0HxOHoS78C69UD3JRMvzlJ7S79S2nTaWRA/whGCTV8o9e/N/1Va9YIV7Q4sOxD8VV4pCWOw==
