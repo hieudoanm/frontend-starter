@@ -3,6 +3,7 @@
   "version": 2,
   "projects": {
     "hooks": "packages/hooks",
-    "next": "web/next"
+    "next": "web/next",
+    "svelte": "web/svelte"
   }
 }

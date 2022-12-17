@@ -3,4 +3,5 @@
 
 nx lint hooks
 nx lint next
+nx lint svelte
 yarn pretty-quick --staged

@@ -8,6 +8,10 @@ on:
       - hotfix/**
       - feature/**
       - renovate/**
+    paths:
+      - .github/workflows/ci.yaml
+      - packages/**
+      - web/**
 
 jobs:
   github-actions:
@@ -25,6 +29,8 @@ jobs:
             working-directory: ./packages/hooks
           - name: Next.js
             working-directory: ./web/next
+          - name: Svelte
+            working-directory: ./web/svelte
     name: ${{ matrix.node.name }} - ${{ matrix.os.name }} - ${{ matrix.project.name }}
     runs-on: ${{ matrix.os.version }}
     steps:

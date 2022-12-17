@@ -5,6 +5,9 @@ on:
     branches:
       - master
       - develop
+    paths:
+      - .github/workflows/docker.yaml
+      - web/**
 
 jobs:
   github-actions:
@@ -20,6 +23,8 @@ jobs:
         project:
           - name: Next.js
             working-directory: ./web/next
+          - name: Svelte
+            working-directory: ./web/svelte
     name: ${{ matrix.node.name }} - ${{ matrix.os.name }} - ${{ matrix.project.name }}
     runs-on: ${{ matrix.os.version }}
     steps:

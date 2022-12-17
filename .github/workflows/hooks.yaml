@@ -1,10 +1,11 @@
-name: use-axios
+name: hooks
 
 on:
   push:
     branches:
       - master
     paths:
+      - .github/workflows/hooks.yaml
       - packages/hooks/**
 
 jobs:

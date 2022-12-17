@@ -1,9 +1,9 @@
 {
-  "name": "@react/next",
+  "name": "@frontend/next",
   "version": "0.0.1",
-  "description": "Next.js Starter",
+  "description": "Front-end - Next.js",
   "main": "index.js",
-  "repository": "git@github.com:hieudoanm/node-starter.git",
+  "repository": "git@github.com:hieudoanm/frontend-starter.git",
   "author": "hieudoanm <hieumdoan@gmail.com>",
   "license": "MIT",
   "private": true,

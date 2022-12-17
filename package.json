@@ -1,24 +1,25 @@
 {
-  "name": "web-starter",
+  "name": "@frontend/starter",
   "version": "0.0.1",
-  "description": "Web Starter",
+  "description": "Front-end Starter",
   "main": "index.js",
-  "repository": "git@github.com:hieudoanm/web-starter.git",
+  "repository": "git@github.com:hieudoanm/frontend-starter.git",
   "author": "hieudoanm <hieumdoan@gmail.com>",
   "license": "MIT",
   "private": true,
   "engines": {
-    "node": ">= 14",
+    "node": ">= 16",
     "npm": ">= 8",
     "yarn": "1"
   },
   "scripts": {
-    "prepare": "husky install || true"
+    "prepare": "husky install || true",
+    "graph": "nx graph"
   },
   "devDependencies": {
     "@nrwl/nx-cloud": "latest",
     "husky": "8.0.2",
-    "nx": "15.3.3",
+    "nx": "14.8.6",
     "prettier": "2.8.1",
     "pretty-quick": "3.1.3"
   },
