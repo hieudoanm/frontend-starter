@@ -16,9 +16,9 @@ const LivePage: NextPage = () => {
   }, []);
 
   return (
-    <div className="w-screen h-screen">
+    <div className="h-screen w-screen">
       <div className="container mx-auto h-full">
-        <div className="w-full h-full flex items-center justify-center">
+        <div className="flex h-full w-full items-center justify-center">
           {dateTime}
         </div>
       </div>

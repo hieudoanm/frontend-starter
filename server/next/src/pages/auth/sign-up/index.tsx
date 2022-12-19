@@ -15,13 +15,13 @@ const SignUpPage: NextPage = () => {
   };
 
   return (
-    <div className="w-screen h-screen">
-      <div className="h-full container mx-auto px-8 md:px-16">
-        <div className="w-full h-full flex justify-center items-center">
-          <div className="max-w-md w-full shadow-2xl border rounded px-8 py-4 md:px-16 md:py-8">
+    <div className="h-screen w-screen">
+      <div className="container mx-auto h-full px-8 md:px-16">
+        <div className="flex h-full w-full items-center justify-center">
+          <div className="w-full max-w-md rounded border px-8 py-4 shadow-2xl md:px-16 md:py-8">
             <form onSubmit={signUp}>
               <div className="mb-8">
-                <h1 className="text-center uppercase text-4xl">Sign Up</h1>
+                <h1 className="text-center text-4xl uppercase">Sign Up</h1>
               </div>
               <div className="mb-8">
                 <TextField
