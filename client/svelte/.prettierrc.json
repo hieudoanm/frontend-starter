@@ -1,0 +1,15 @@
+{
+  "tabWidth": 2,
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "printWidth": 80,
+  "singleQuote": false,
+  "htmlWhitespaceSensitivity": "css",
+  "svelteSortOrder": "options-styles-scripts-markup",
+  "svelteStrictMode": true,
+  "svelteBracketNewLine": false,
+  "svelteAllowShorthand": false,
+  "svelteIndentScriptAndStyle": false,
+  "plugins": ["prettier-plugin-svelte", "prettier-plugin-tailwindcss"]
+}

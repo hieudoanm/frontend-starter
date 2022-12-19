@@ -1,0 +1,10 @@
+{
+  "$schema": "./node_modules/nx/schemas/workspace-schema.json",
+  "version": 2,
+  "projects": {
+    "hooks": "packages/hooks",
+    "next-server": "server/next-server",
+    "svelte-client": "client/svelte",
+    "svelte-server": "server/svelte-server"
+  }
+}

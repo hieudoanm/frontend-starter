@@ -1,0 +1,11 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+nx lint hooks
+nx lint svelte-client
+nx lint next-server
+# Svelte Server
+nx format svelte-server
+nx lint svelte-server
+# Prettier
+yarn pretty-quick --staged

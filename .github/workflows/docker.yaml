@@ -1,0 +1,69 @@
+name: Docker
+
+on:
+  push:
+    branches:
+      - master
+      - develop
+    paths:
+      - .github/workflows/docker.yaml
+      - client/**
+      - server/**
+
+jobs:
+  github-actions:
+    strategy:
+      fail-fast: false
+      matrix:
+        node:
+          - name: Node.js 16
+            version: 16.x
+        os:
+          - name: Ubuntu
+            version: ubuntu-latest
+        project:
+          - name: Client - Svelte
+            image-name: client-svelte
+            working-directory: ./client/svelte
+          - name: Server - Next.js
+            image-name: server-next
+            working-directory: ./server/next
+          - name: Server - Svelte
+            image-name: server-svelte
+            working-directory: ./server/svelte
+    name: ${{ matrix.node.name }} - ${{ matrix.os.name }} - ${{ matrix.project.name }}
+    runs-on: ${{ matrix.os.version }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node.version }}
+      - name: Branch
+        run: echo ${{ github.head_ref || github.ref_name }}
+      - name: TimeZone
+        uses: szenius/set-timezone@v1.1
+        with:
+          timezoneLinux: 'Asia/Ho_Chi_Minh'
+      - name: Get Date & Time
+        id: datetime
+        run: |
+          echo $(date +'%Y-%m-%dT%H:%M:%S')
+          echo "::set-output name=datetime::$(date +'%Y%m%d.%H%M%S')"
+      - name: Get Commit SHA
+        id: version
+        run: |
+          echo $(git rev-parse --short HEAD)
+          echo "::set-output name=sha_short::$(git rev-parse --short HEAD)"
+      - name: Update Tools
+        run: sudo apt-get update && sudo apt-get install apt-transport-https ca-certificates curl software-properties-common
+      - name: Add Repository
+        run: curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add - && sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"
+      - name: Install Docker
+        run: sudo apt-get update && sudo apt-get install docker-ce
+      - name: Docker Build
+        working-directory: ${{ matrix.project.working-directory }}
+        run: docker build . --no-cache -t ${{ matrix.project.image-name }}:$IMAGE_TAG
+        env:
+          IMAGE_TAG: ${{ github.head_ref || github.ref_name }}.${{ steps.datetime.outputs.datetime }}.${{ steps.version.outputs.sha_short }}

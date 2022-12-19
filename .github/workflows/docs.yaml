@@ -1,0 +1,41 @@
+name: Docs
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - .github/workflows/docs.yaml
+      - packages/**
+
+jobs:
+  github-actions:
+    strategy:
+      matrix:
+        node:
+          - name: Node.js 16
+            version: 16.x
+        os:
+          - name: Ubuntu
+            version: ubuntu-latest
+    name: ${{ matrix.os.name }} - ${{ matrix.node.name }}
+    runs-on: ${{ matrix.os.version }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node.version }}
+      - name: Install Docsify CLI
+        run: yarn global add docsify-cli
+      - name: Bundle Docs
+        run: docsify init ./docs
+        working-directory: ./packages/hooks
+      - name: Deploy GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4.4.1
+        with:
+          token: ${{ secrets.GH_PAGES_TOKEN }}
+          branch: gh-pages
+          folder: ./packages/hooks/docs
+          clean: true

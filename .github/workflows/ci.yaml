@@ -1,0 +1,54 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - master
+      - develop
+      - hotfix/**
+      - feature/**
+      - renovate/**
+    paths:
+      - .github/workflows/ci.yaml
+      - packages/**
+      - client/**
+      - server/**
+
+jobs:
+  github-actions:
+    strategy:
+      fail-fast: false
+      matrix:
+        node:
+          - name: Node.js 16.x
+            version: 16.x
+        os:
+          - name: Ubuntu
+            version: ubuntu-latest
+        project:
+          - name: Hooks
+            working-directory: ./packages/hooks
+          - name: Client - Svelte
+            working-directory: ./client/svelte
+          - name: Server - Next.js
+            working-directory: ./server/next-server
+          - name: Server - Svelte
+            working-directory: ./server/svelte-server
+    name: ${{ matrix.node.name }} - ${{ matrix.os.name }} - ${{ matrix.project.name }}
+    runs-on: ${{ matrix.os.version }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node.version }}
+      - name: Install Dependencies
+        run: yarn install --network-timeout 86400000
+        working-directory: ${{ matrix.project.working-directory }}
+      - name: Build Production
+        run: yarn build
+        working-directory: ${{ matrix.project.working-directory }}
+      - name: Unit Test
+        run: yarn test
+        working-directory: ${{ matrix.project.working-directory }}
