@@ -3,7 +3,8 @@
   "version": 2,
   "projects": {
     "hooks": "packages/hooks",
-    "svelte": "client/svelte",
-    "next": "server/next"
+    "next-server": "server/next-server",
+    "svelte-client": "client/svelte",
+    "svelte-server": "server/svelte-server"
   }
 }
