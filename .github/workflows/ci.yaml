@@ -49,6 +49,6 @@ jobs:
       - name: Build Production
         run: yarn build
         working-directory: ${{ matrix.project.working-directory }}
-      - name: Unit Test
-        run: yarn test
-        working-directory: ${{ matrix.project.working-directory }}
+      # - name: Unit Test
+      #   run: yarn test
+      #   working-directory: ${{ matrix.project.working-directory }}
