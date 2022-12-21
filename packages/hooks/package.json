@@ -9,7 +9,7 @@
   },
   "author": "hieudoanm <hieumdoan@gmail.com>",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "engines": {
     "node": ">= 14",
     "npm": ">= 8",
