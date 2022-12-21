@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "(React) Use Hooks",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com:hieudoanm/react-hooks.git"
